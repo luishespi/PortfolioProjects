@@ -158,8 +158,8 @@ FROM PortfolioProject..Liposuction_The_Medical
 -- We can analyze that although Botox is a low ticket service, the total of what we have generated, in the same time, 
 -- shows that it has been higher than Liposuction, besides, Botox patients are usually first time clients and you can upsell them 
 -- to other higher ticket services.
+--Liposuction leads are more expensive to generate.
 
-Liposuction leads are more expensive to generate.
 SELECT btx.status,btx.opportunity_name AS BotoxTotalLeads,
 SUM(CAST(btx.lead_value as int)) AS BotoxtotalValue,
 lipo.status,lipo.opportunity_name as NumberofLipoLeads, 
