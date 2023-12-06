@@ -1,27 +1,16 @@
 # PortfolioProjects
 
-Data Analyst Portfolio Repository
-Overview
-Welcome to my Data Analyst Portfolio Repository! With over 8 years of experience in various industries including banking, healthcare, marketing, and construction, I have accumulated a diverse set of skills and expertise in data analysis. This repository showcases a very brief example of my experience 
-and my proficiency in handling data-driven projects, providing valuable insights, and contributing to informed decision-making.
+                                              EDUCATION
+Computer Science:                                                         2004 – 2007 at Universidad del Golfo de México 
+International Business (With specialization in Data Analysis)             2007 – 2012 at Tecnológico de Monterrey
 
-Contents
-This repository contains a selection of projects and resources that highlight my capabilities as a seasoned data analyst. Below are the key sections you will find:
+                                            CAREER SUMMARY
+I generated over $15M in profits for my clients in less than 3 years, thanks to the correct interpretation of the market and the good analysis of the data generated. I’m so passionate about tech that I run a TikTok/YouTube channel where my son and I teach kids about IT, I'm dedicating significant study hours towards becoming the best pentester and then a CTO. My technical expertise spans networks, PC maintenance, data analysis, and project management. Passionate about cybersecurity and businesses, I aim to merge my diverse skills to make a meaningful impact while inspiring the next generation in tech. I also own a digital transformation company for the medical industry.
 
-1. Banking Analytics
-Explore my work in the banking sector, including analyses of financial trends, risk assessment, customer behavior modeling, and more.
+                                               SKILLS
+Splunk | Snort | Wireshark | Nmap | Sysinternals | Sysmon | Metasploit | Burp Suite | SQL | Python | Power BI | Web Scrapping | Kali Linux | ASANA | Facebook/Instagram Ads | Google Ads | Ad Roll | Go High-level | IT Helpdesk | 
+Team Player | Problem Solver | Fast Learner | Emphatic | Team Management | Customer Oriented
 
-2. Healthcare Data Insights
-Dive into my contributions to the healthcare industry, covering areas such as patient outcome prediction, resource optimization, and healthcare process improvement through data-driven solutions.
-
-3. Marketing Analytics
-Discover my expertise in leveraging data for marketing strategies, including customer segmentation, campaign performance evaluation, and ROI optimization.
-
-4. Construction Industry Insights
-Get insights into how I have applied data analytics in the construction industry, enabling better project management, resource allocation, and cost optimization.
-
-5. Industry Agnostic Projects
-Explore additional projects that showcase my ability to adapt analytical techniques across various industries.
 
 How to Use this Repository
 Each section contains detailed project descriptions, including problem statements, methodologies, key findings, and visualizations. Additionally, you'll find sample code, data sets, and any relevant reports or presentations.
