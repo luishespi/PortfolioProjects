@@ -1,0 +1,70 @@
+Search for an IP Address
+
+Description: Query to find logs related to a specific IP address.
+Query:
+spl
+Copy code
+sourcetype=<your_sourcetype_here> src_ip="x.x.x.x"
+Identify SQL Injection Attempts
+
+Description: Query to detect potential SQL injection attempts in logs.
+Query:
+spl
+Copy code
+sourcetype=<your_sourcetype_here> "SQL injection"
+Find Failed Login Attempts
+
+Description: Query to locate failed login attempts in logs.
+Query:
+spl
+Copy code
+sourcetype=<your_sourcetype_here> action=login status=failure
+Search for Error Codes
+
+Description: Query to search for specific error codes in logs.
+Query:
+spl
+Copy code
+sourcetype=<your_sourcetype_here> error_code=XXXX
+Identify High Traffic Sources
+
+Description: Query to identify sources generating high traffic.
+Query:
+spl
+Copy code
+sourcetype=<your_sourcetype_here> | top limit=10 src_ip
+Locate Events within a Time Range
+
+Description: Query to find events within a specified time range.
+Query:
+spl
+Copy code
+sourcetype=<your_sourcetype_here> earliest=-24h latest=now
+Search for Specific User Activity
+
+Description: Query to search for activity related to a specific user.
+Query:
+spl
+Copy code
+sourcetype=<your_sourcetype_here> user="username"
+Identify Abnormal Access Patterns
+
+Description: Query to detect abnormal access patterns in logs.
+Query:
+spl
+Copy code
+sourcetype=<your_sourcetype_here> | stats count by src_ip | where count > 100
+Search for HTTP Error Codes
+
+Description: Query to search for specific HTTP error codes in web logs.
+Query:
+spl
+Copy code
+sourcetype=<your_sourcetype_here> status=404 OR status=500
+Find Malware Indicators
+
+Description: Query to identify potential malware indicators in logs.
+Query:
+spl
+Copy code
+sourcetype=<your_sourcetype_here> malware OR virus OR trojan
